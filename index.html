@@ -186,5 +186,17 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const dateContainer = document.getElementById("date");
+      // console.log(dateContainer);
+
+      function date() {
+        const d = new Date();
+        let year = d.getFullYear();
+        return year;
+      }
+      dateContainer.innerHTML = date();
+    </script>
   </body>
 </html>
